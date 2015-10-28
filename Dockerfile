@@ -9,4 +9,4 @@ RUN mkdir -p $EJABBERD_HOME/database \
     $EJABBERD_HOME/backup \
   && chown -R 999:999 $EJABBERD_HOME
 
-VOLUME ["$EJABBERD_HOME/database", "$EJABBERD_HOME/ssl", "$EJABBERD_HOME/backup"]
+VOLUME ["$EJABBERD_HOME"]
